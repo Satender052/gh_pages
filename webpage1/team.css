@@ -1,0 +1,130 @@
+body{
+
+background-image:url("code.jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+
+}
+a{
+	text-decoration: none;
+	
+}
+a:link{
+	text-decoration: none;
+	color: rgb(208, 208, 247); 
+}
+a:hover{
+	text-decoration: none;
+	 
+}
+a:visited{
+	text-decoration: none;
+	color:rgb(208, 208, 247); 
+}
+.mainheader{
+	border-bottom: 2px solid white;
+	height: 130px;
+}
+#xheader{
+	background-image:url("webdevlabs2.png");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 72.73%;
+	position: relative;
+	margin-top: 0px;
+	margin-right: 2%;
+	border-radius-right: 0px;
+	float:right;
+
+
+}
+#header{
+
+	margin-top: -10px;
+	height: 49px;
+	width: 100%;
+	position: relative;
+	 
+	border-radius: 0px;
+	float: left;
+	
+
+}
+
+#list li:nth-child(1){
+	margin-left: 0%;
+	position: relative;
+}
+#list li{
+
+	display: inline-block;
+	font-family: Viner Hand ITC;
+	font-size: 25px;
+	margin-right:5%;
+	margin-top: -.8%;
+	font-weight: bold;
+	color: rgb(208, 208, 247);
+	
+
+}
+	
+.img1 img
+{
+	margin-left: 2%;
+	height:128px;	
+	width: 23.26%;
+	position: relative;
+	margin-top: 0px;
+	border-radius-left: 10px;
+}
+
+.middle{
+	width: 100%;
+	height: 600px;
+	position: relative;
+
+}
+.middle >h2{
+	margin-left: 4.5%;
+	color: yellow;
+}
+.middle > li >ul{
+	color:white;
+}
+
+.footer{
+	width: 100%;
+	height:100px;
+	background-color: #DBDBDB;
+
+}
+#plugins{
+	float: right;
+	position: relative;
+	margin-top: 10px;
+	margin-right: 20%
+}
+#fb{
+	background-image: url("fb.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	padding-top: 2px;
+	margin-right: 30px;
+}
+#gh{
+	background-image: url("gh.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	padding-top: 2px;
+	margin-right: 30px;
+}
+#twt{
+	background-image: url("twitter.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	padding-top: 2px;
+}
